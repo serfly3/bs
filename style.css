@@ -1,0 +1,85 @@
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #logo {
+    font-size: 24px;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 2px 0 #000;
+    --supercell-font: "__supercellFont_ff1c38",
+      "__supercellFont_Fallback_ff1c38";
+    --game-font: "__gameFont_4a9947", "__gameFont_Fallback_4a9947";
+    font-family: PusiaBold, sans-serif !important;
+    width: 350px;
+    aspect-ratio: auto 350 / 200;
+    box-sizing: border-box;
+    margin-top: 20px !important;
+    max-height: 115px;
+    object-fit: contain;
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    color: transparent;
+  }
+
+  h1 {
+    font-size: 24px;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 2px 0 #000;
+    color: #fff;
+    --supercell-font: "__supercellFont_ff1c38",
+      "__supercellFont_Fallback_ff1c38";
+    --game-font: "__gameFont_4a9947", "__gameFont_Fallback_4a9947";
+    font-family: PusiaBold, sans-serif !important;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    vertical-align: inherit;
+  }
+
+  #btt {
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0 2px 0 #000;
+    --supercell-font: "__supercellFont_ff1c38",
+      "__supercellFont_Fallback_ff1c38";
+    --game-font: "__gameFont_4a9947", "__gameFont_Fallback_4a9947";
+    font-family: PusiaBold, sans-serif !important;
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 18px 4px;
+    text-align: center;
+    color: #fff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transition: transform 0.1s linear, -webkit-transform 0.1s linear;
+    position: relative;
+    font-size: 24px;
+    line-height: 32px;
+    border: none;
+    background: rgba(0, 0, 0, 0) url(/images/game/button-gold.svg?v=u1pq2e2);
+    background-size: 100% 100%;
+    transform: skew(-7deg);
+    display: block;
+    margin-top: 20px;
+    background-image: url(btt.svg);
+    font-size: 30px;
+  }
+
+  html {
+    background-image: url(background.jpg);
+  }
+
+  .c {
+    margin-top: 50%;
+  }
+  .scrm {
+    width: 100%;
+    height: 100vh;
+  }
+}
